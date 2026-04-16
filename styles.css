@@ -535,3 +535,29 @@ h1 {
   vertical-align: middle;
   margin-right: 8px;
 }
+/* ===== Logo polish ===== */
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 36px;
+  width: auto;
+}
+
+.brand-text {
+  display: flex;
+  gap: 4px;
+  align-items: baseline;
+}
+
+.brand-text strong {
+  font-weight: 600;
+}
+
+.brand-text span {
+  font-weight: 400;
+}
