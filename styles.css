@@ -561,3 +561,14 @@ h1 {
 .brand-text span {
   font-weight: 400;
 }
+/* Fix oversized logo */
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
