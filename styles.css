@@ -675,3 +675,166 @@ h1 {
 .nav-cta:hover {
   background: #f5f5f5;
 }
+/* ===== CLEAN PASS: premium text-only header + hero polish ===== */
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  background: #fff;
+}
+
+.site-header .container.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+}
+
+.brand {
+  text-decoration: none;
+}
+
+.brand-text {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #111;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
+.brand-text strong {
+  font-weight: 600;
+}
+
+.brand-text span {
+  font-weight: 400;
+}
+
+/* Nav */
+.nav-links a {
+  color: #444;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 28px;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #000;
+  opacity: 1;
+}
+
+.nav-cta {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-cta:hover {
+  background: #f5f5f5;
+}
+
+/* Hero */
+.hero {
+  padding-top: 140px;
+  padding-bottom: 120px;
+}
+
+.eyebrow {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 22px;
+}
+
+h1 {
+  letter-spacing: -0.045em;
+  line-height: 1.03;
+  margin-bottom: 28px;
+}
+
+.hero-copy {
+  max-width: 520px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 34px;
+}
+
+.hero-actions {
+  margin-bottom: 40px;
+}
+
+/* Buttons */
+.hero-actions a {
+  display: inline-block;
+  background: #111;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-right: 12px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.hero-actions a:last-child {
+  background: #f7f7f7;
+  color: #111 !important;
+  border: 1px solid #ddd;
+}
+
+.hero-actions a:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+/* Insight block */
+.insight-list {
+  margin-top: 48px;
+}
+
+.insight-item {
+  padding-left: 12px;
+  border-left: 2px solid #eee;
+  margin-bottom: 20px;
+}
+
+.insight-num {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.insight-item strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* General typography polish */
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Section rhythm */
+.section {
+  padding: 120px 0;
+}
+
+/* iPad / tablet balance */
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .nav-links a {
+    margin-left: 18px;
+  }
+}
