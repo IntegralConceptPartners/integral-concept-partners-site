@@ -435,3 +435,55 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+/* ===== FINAL POLISH (BUTTONS + INSIGHTS + BALANCE) ===== */
+
+/* Buttons (turn links into real CTAs) */
+.btn {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-right: 12px;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #111;
+  border: 1px solid #ddd;
+}
+
+/* Space before insight block */
+.hero-actions {
+  margin-bottom: 32px;
+}
+
+/* Insight block upgrade */
+.insight-list {
+  margin-top: 40px;
+}
+
+.insight-item {
+  padding-left: 12px;
+  border-left: 2px solid #eee;
+  margin-bottom: 20px;
+}
+
+.insight-num {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* Layout balance */
+.hero-grid {
+  align-items: start;
+}
+
+/* Slightly tighter headline (premium feel) */
+h1 {
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
