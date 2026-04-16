@@ -960,3 +960,28 @@ h1 {
     margin-left: 0;
   }
 }
+/* ===== 3 COLUMN SECTION (Decision quality / Execution / Depth) ===== */
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.grid-3 h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.grid-3 p {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
