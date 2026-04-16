@@ -838,3 +838,62 @@ p {
     margin-left: 18px;
   }
 }
+/* ===== FINAL POLISH ===== */
+
+/* Constrain content width (huge improvement) */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Improve hero readability */
+.hero-copy {
+  max-width: 520px;
+  color: #333;
+}
+
+/* Add breathing room under hero */
+.hero {
+  padding-bottom: 140px;
+}
+
+/* Tighten insight spacing */
+.insight-item {
+  margin-bottom: 16px;
+}
+
+.insight-num {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Section spacing */
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* Subtle hierarchy improvement */
+h1 {
+  max-width: 700px;
+}
+
+/* Improve button feel */
+.hero-actions a {
+  border-radius: 10px;
+}
+
+/* Secondary button refinement */
+.hero-actions a:last-child {
+  background: #fafafa;
+}
+
+/* Slight nav refinement */
+.nav-links a {
+  opacity: 0.8;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
