@@ -985,3 +985,32 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+/* ===== FORCE GRID-3 LAYOUT (override everything) ===== */
+
+.grid-3 {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 40px !important;
+  margin-top: 30px;
+}
+
+.grid-3 > div {
+  display: block;
+}
+
+.grid-3 h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.grid-3 p {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Mobile fallback */
+@media (max-width: 900px) {
+  .grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+}
