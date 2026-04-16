@@ -350,3 +350,88 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+/* ===== FINAL PREMIUM POLISH ===== */
+
+/* 1. Headline + typography */
+h1 {
+  letter-spacing: -0.045em;
+  margin-bottom: 28px;
+  line-height: 1.05;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* 2. Hero width (tighter, more premium) */
+.hero-copy {
+  max-width: 520px;
+}
+
+/* 3. Buttons (turn links into real CTAs) */
+.btn {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-right: 12px;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #111;
+  border: 1px solid #ddd;
+}
+
+/* 4. Spacing / rhythm */
+.hero {
+  padding-top: 140px;
+  padding-bottom: 110px;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+/* 5. Space before insight block */
+.hero-actions {
+  margin-bottom: 32px;
+}
+
+/* 6. Navigation polish */
+.nav-links a {
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+
+/* 7. Insight block cleanup */
+.insight-num {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.insight-item {
+  margin-bottom: 18px;
+}
+
+/* 8. Layout balance (important) */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
+}
+
+/* 9. Typography rendering (subtle upgrade) */
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
