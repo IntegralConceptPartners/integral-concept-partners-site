@@ -582,3 +582,23 @@ h1 {
   width: auto;
   object-fit: contain;
 }
+/* FORCE HEADER LOGO SIZE */
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-header .brand .logo {
+  display: block;
+  height: 40px !important;
+  width: auto !important;
+  max-width: 40px !important;
+  object-fit: contain;
+}
+
+.site-header .brand img {
+  height: 40px !important;
+  width: auto !important;
+  max-width: 40px !important;
+}
