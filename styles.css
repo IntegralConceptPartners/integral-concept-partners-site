@@ -495,3 +495,37 @@ h1 {
   letter-spacing: -0.045em;
   line-height: 1.05;
 }
+/* ===== FINAL POLISH ===== */
+
+.btn-secondary {
+  background: #f7f7f7;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* spacing */
+.insight-list {
+  margin-top: 48px;
+}
+
+/* subtle header polish */
+.site-header {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* smooth interactions */
+.nav-links a {
+  transition: opacity 0.2s ease;
+}
+
+.nav-links a:hover {
+  opacity: 0.6;
+}
+
+.btn {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
