@@ -529,3 +529,9 @@ h1 {
 .btn {
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
+.brand-mark img {
+  height: 32px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+}
