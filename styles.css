@@ -8,6 +8,8 @@
   --max-width: 1100px;
   --narrow-width: 760px;
   --radius: 16px;
+  --font-heading: "Sora", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 *,
@@ -22,7 +24,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-body);
   color: var(--text);
   background: var(--bg);
   line-height: 1.6;
@@ -84,23 +86,13 @@ a {
   color: #111;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
-.brand-text {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 4px;
-  font-size: 15px;
-  letter-spacing: -0.2px;
-}
-
-.brand-text strong {
-  font-weight: 600;
-}
-
-.brand-text span {
-  font-weight: 400;
-  color: #555;
+.brand-logo {
+  display: block;
+  height: 44px;
+  width: auto;
 }
 
 .nav-links {
@@ -175,6 +167,7 @@ h3 {
   margin: 0;
   color: #111;
   letter-spacing: -0.03em;
+  font-family: var(--font-heading);
 }
 
 h1 {
@@ -475,6 +468,10 @@ p {
 
   .nav {
     min-height: 68px;
+  }
+
+  .brand-logo {
+    height: 38px;
   }
 
   h1 {
