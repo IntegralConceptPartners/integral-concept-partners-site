@@ -1,0 +1,33 @@
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e73"/>
+      <stop offset="100%" stop-color="#5fd0c5"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(135,120) rotate(45)">
+    <rect x="-75" y="-75" width="150" height="150" fill="none" stroke="url(#grad)" stroke-width="12"/>
+    <rect x="-42" y="-42" width="84" height="84" fill="none" stroke="url(#grad)" stroke-width="12"/>
+    <rect x="-14" y="-14" width="28" height="28" fill="url(#grad)"/>
+  </g>
+
+  <g transform="translate(250,0)">
+    <text x="0" y="112"
+          font-family="'Sora', Inter, Arial, sans-serif"
+          font-size="48"
+          font-weight="600"
+          fill="#0b0f2a">
+      Integral Concept
+    </text>
+
+    <text x="3" y="164"
+          font-family="'Sora', Inter, Arial, sans-serif"
+          font-size="31"
+          font-weight="400"
+          fill="#4fa6a0"
+          letter-spacing="4">
+      Partners
+    </text>
+  </g>
+</svg>
