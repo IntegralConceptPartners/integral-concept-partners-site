@@ -1381,3 +1381,8 @@ a {
   width: 100%;
 
 }
+.hero-sub {
+  margin-top: 14px;
+  color: #555;
+  font-size: 15px;
+}
