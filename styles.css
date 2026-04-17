@@ -1309,7 +1309,7 @@ p {
 
   padding-bottom: 120px;
 
-}
+}h
 
 /* Links inside sections */
 
@@ -1330,5 +1330,54 @@ a {
 .section a:not(.btn):hover {
 
   border-bottom-color: rgba(0, 0, 0, 0.5);
+
+}
+/* ===== NAV HOVER UNDERLINE ANIMATION ===== */
+
+.nav-links a {
+
+  position: relative;
+
+  text-decoration: none;
+
+  padding-bottom: 4px;
+
+}
+
+/* the underline (hidden by default) */
+
+.nav-links a::after {
+
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+
+  bottom: 0;
+
+  width: 0%;
+
+  height: 1.5px;
+
+  background-color: #111;
+
+  transition: width 0.25s ease;
+
+}
+
+/* animate on hover */
+
+.nav-links a:hover::after {
+
+  width: 100%;
+
+}
+
+/* keep underline visible for active page */
+
+.nav-links a.active::after {
+
+  width: 100%;
 
 }
