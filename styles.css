@@ -1400,3 +1400,10 @@ a {
     height: 32px;
   }
 }
+/* ===== LOGO SIZE FIX ===== */
+
+.logo {
+  height: 28px;
+  width: auto;
+  display: block;
+}
