@@ -1386,3 +1386,17 @@ a {
   color: #555;
   font-size: 15px;
 }
+/* ===== LOGO ===== */
+
+.logo {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
+/* optional slightly larger on desktop */
+@media (min-width: 900px) {
+  .logo {
+    height: 32px;
+  }
+}
