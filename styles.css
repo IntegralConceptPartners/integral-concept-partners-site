@@ -1443,3 +1443,28 @@ a {
   max-width: 120px !important;
   object-fit: contain !important;
 }
+/* ===== FORCE TEXT VISIBILITY FIX ===== */
+
+body {
+  color: #111;
+  background: #fff;
+}
+
+.hero,
+.section {
+  color: #111;
+}
+
+.hero-copy,
+.section p,
+.section-head p {
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #111;
+}
+
+a {
+  color: #000;
+}
