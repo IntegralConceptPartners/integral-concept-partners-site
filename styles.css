@@ -1174,3 +1174,26 @@ h1 {
   line-height: 1.7;
 
 }
+/* ===== CONTACT PAGE POLISH ===== */
+
+.grid-2 a,
+
+.grid-3 a {
+
+  color: inherit;
+
+  text-decoration: none;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+
+  padding-bottom: 1px;
+
+}
+
+.grid-2 a:hover,
+
+.grid-3 a:hover {
+
+  border-bottom-color: rgba(0, 0, 0, 0.45);
+
+}
