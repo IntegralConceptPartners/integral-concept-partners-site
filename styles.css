@@ -531,3 +531,6 @@ p {
   color: #111;
   border: 1px solid #ddd;
 }
+.hero-graphic img {
+  margin-top: 24px; /* was ~40px */
+}
