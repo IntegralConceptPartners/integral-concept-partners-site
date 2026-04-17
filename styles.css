@@ -510,3 +510,9 @@ p {
     align-items: flex-start;
   }
 }
+.hero-graphic img {
+  width: 100%;
+  max-width: 520px;
+  margin-top: 40px;
+  border-radius: 12px;
+}
