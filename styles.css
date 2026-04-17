@@ -1427,3 +1427,19 @@ a {
   color: #555;
   font-size: 15px;
 }
+/* ===== FORCE HEADER LOGO ===== */
+.site-header .brand {
+  display: flex !important;
+  align-items: center !important;
+  flex: 0 0 auto !important;
+  max-width: 140px !important;
+}
+
+.site-header .brand .logo,
+.site-header .brand img {
+  display: block !important;
+  height: 28px !important;
+  width: auto !important;
+  max-width: 120px !important;
+  object-fit: contain !important;
+}
