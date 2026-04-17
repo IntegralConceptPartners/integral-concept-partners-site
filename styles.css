@@ -539,3 +539,7 @@ p {
   height: 36px !important;
   width: auto;
 }
+.site-header .logo {
+  height: 28px;
+  width: auto;
+}
