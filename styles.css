@@ -1411,3 +1411,19 @@ a {
   height: 28px !important;
   width: auto !important;
 }
+.logo {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.hero-sub {
+  margin-top: 14px;
+  color: #555;
+  font-size: 15px;
+}
