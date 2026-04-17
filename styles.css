@@ -1014,3 +1014,122 @@ h1 {
     grid-template-columns: 1fr !important;
   }
 }
+/* ===== HOMEPAGE CLEAN SECTION LAYOUT ===== */
+
+.section-head {
+
+  margin-bottom: 40px;
+
+}
+
+.page-kicker {
+
+  font-size: 13px;
+
+  letter-spacing: 0.12em;
+
+  color: #444;
+
+  margin-bottom: 14px;
+
+}
+
+.section-head h2 {
+
+  max-width: 760px;
+
+  margin-bottom: 22px;
+
+}
+
+.section-head p {
+
+  max-width: 920px;
+
+  color: #333;
+
+  line-height: 1.6;
+
+}
+
+.grid-2,
+
+.grid-3 {
+
+  gap: 40px;
+
+}
+
+.grid-3 {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  margin-top: 28px;
+
+}
+
+.grid-2 {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  margin-top: 28px;
+
+}
+
+.grid-3 > div,
+
+.grid-2 > div {
+
+  display: block;
+
+}
+
+.grid-3 h3,
+
+.grid-2 h3 {
+
+  margin-bottom: 14px;
+
+  font-size: 18px;
+
+  line-height: 1.35;
+
+}
+
+.grid-3 p,
+
+.grid-2 p {
+
+  margin: 0 0 14px 0;
+
+  color: #333;
+
+  line-height: 1.7;
+
+}
+
+.section {
+
+  padding-top: 120px;
+
+  padding-bottom: 120px;
+
+}
+
+@media (max-width: 900px) {
+
+  .grid-3,
+
+  .grid-2 {
+
+    grid-template-columns: 1fr;
+
+    gap: 28px;
+
+  }
+
+}
