@@ -543,3 +543,13 @@ p {
   height: 28px;
   width: auto;
 }
+.site-header .brand {
+  display: flex;
+  align-items: center;
+}
+
+.site-header .logo {
+  height: 26px;
+  width: auto;
+  display: block;
+}
