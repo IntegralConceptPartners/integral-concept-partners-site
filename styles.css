@@ -557,3 +557,112 @@ p {
   width: auto !important;
   display: block;
 }
+/* ===== FINAL SITE POLISH ===== */
+
+/* Better section rhythm */
+.section {
+  padding: 110px 0;
+}
+
+/* Consistent content spacing */
+.section-head {
+  margin-bottom: 34px;
+}
+
+.section-head h2 {
+  margin-bottom: 18px;
+}
+
+/* Grid spacing */
+.grid-2,
+.grid-3 {
+  gap: 38px;
+  margin-top: 28px;
+}
+
+/* Card style blocks */
+.grid-2 > div,
+.grid-3 > div {
+  padding: 28px;
+  border: 1px solid #ececec;
+  border-radius: 16px;
+  background: #fff;
+}
+
+/* Typography inside cards */
+.grid-2 h3,
+.grid-3 h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.grid-2 p,
+.grid-3 p {
+  margin: 0 0 12px;
+  color: #333;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #111;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+/* Nav active state */
+.nav-links a.active {
+  font-weight: 600;
+  opacity: 1;
+}
+
+/* Footer cleanup */
+.site-footer {
+  padding: 38px 0;
+  border-top: 1px solid #eee;
+}
+
+.footer-links a {
+  margin-left: 18px;
+  color: #555;
+}
+
+.footer-links a:hover {
+  color: #111;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr !important;
+    gap: 22px;
+  }
+
+  .section {
+    padding: 80px 0;
+  }
+
+  .hero {
+    padding-top: 110px;
+    padding-bottom: 80px;
+  }
+
+  .footer-links a {
+    display: inline-block;
+    margin: 8px 12px 0 0;
+  }
+}
