@@ -553,3 +553,13 @@ p {
   width: auto;
   display: block;
 }
+.section-graphic {
+  margin-top: 40px;
+}
+
+.section-graphic img {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 16px;
+  display: block;
+}
