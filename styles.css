@@ -563,3 +563,25 @@ p {
   border-radius: 16px;
   display: block;
 }
+.section-graphic {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.section-graphic img {
+  max-width: 680px;
+  width: 100%;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+.graphic-labels {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #24324a;
+}
