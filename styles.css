@@ -552,3 +552,8 @@ p {
     align-items: flex-start;
   }
 }
+.site-header .logo {
+  height: 26px !important;
+  width: auto !important;
+  display: block;
+}
