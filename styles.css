@@ -1362,3 +1362,7 @@ background: linear-gradient(90deg, #203d72 0%, #1d3463 100%);
 .site-footer .logo-footer {
   height: 36px !important;
 }
+.home-hero-motif img {
+  opacity: 0.16 !important;
+  filter: contrast(1.15);
+}
