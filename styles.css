@@ -1465,7 +1465,7 @@ height:auto;
   top: 54%;
   transform: translateY(-50%);
 }
-
+opacity: 0.28;
 .home-hero-motif img {
   width: 520px !important;
   max-width: none !important;
