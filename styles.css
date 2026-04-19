@@ -1549,3 +1549,17 @@ opacity: 0.28;
   margin-left: 0;
   text-align: left;
 }
+.hero .container.narrow > .eyebrow,
+.hero .container.narrow > h1,
+.hero .container.narrow > p,
+.hero .container.narrow > .lead {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+
+.hero .container.narrow {
+  max-width: 760px;
+  margin: 0 auto;
+}
