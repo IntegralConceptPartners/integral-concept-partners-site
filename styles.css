@@ -1563,3 +1563,16 @@ opacity: 0.28;
   max-width: 760px;
   margin: 0 auto;
 }
+.hero,
+.hero .container,
+.hero .container.narrow {
+  padding-left: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.hero .container.narrow > * {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
