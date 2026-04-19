@@ -1366,3 +1366,37 @@ background: linear-gradient(90deg, #203d72 0%, #1d3463 100%);
   opacity: 0.16 !important;
   filter: contrast(1.15);
 }
+/* ===== HOMEPAGE MOTIF FINAL FIX ===== */
+
+.home-hero-motif {
+  position: absolute;
+  top: 150px;
+  right: 1%;
+  width: 36%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home-hero-motif img {
+  width: 100%;
+  display: block;
+  opacity: 0.28 !important;
+  filter: contrast(1.35) saturate(1.15);
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .home-hero-motif {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .home-hero-motif img {
+    max-width: 260px;
+    margin: 0 auto;
+    opacity: 0.18 !important;
+  }
+}
