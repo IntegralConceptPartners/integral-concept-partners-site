@@ -1166,3 +1166,56 @@ background: linear-gradient(90deg, #203d72 0%, #1d3463 100%);
 .site-header .nav-links a.active {
   border-bottom: 2px solid #67e0d3;
 }
+/* ===== FINAL ICP UNIFIED HEADER / FOOTER ===== */
+
+.site-header,
+.site-footer {
+  background: linear-gradient(90deg, #12163d 0%, #171d4a 45%, #1d2557 100%);
+}
+
+/* remove panel look */
+.site-header .container,
+.site-footer .container,
+.site-header .brand,
+.site-header .nav,
+.site-footer .brand,
+.site-footer .nav {
+  background: transparent !important;
+}
+
+/* logo sizing */
+
+.site-header .logo {
+  height: 44px;
+  width: auto;
+}
+
+.site-footer .logo {
+  height: 42px;
+  width: auto;
+}
+
+/* nav */
+
+.site-header .nav-links a,
+.site-footer a {
+  color: rgba(255,255,255,0.84);
+}
+
+.site-header .nav-links a:hover,
+.site-header .nav-links a.active,
+.site-footer a:hover {
+  color: #ffffff;
+}
+
+.site-header .nav-links a.active {
+  border-bottom: 2px solid #67e0d3;
+}
+
+/* footer text */
+
+.site-footer,
+.site-footer p,
+.site-footer span {
+  color: rgba(255,255,255,0.78);
+}
