@@ -1525,3 +1525,14 @@ opacity: 0.28;
   height: 40px;
   width: auto;
 }
+.hero .container {
+  display: block;
+}
+
+.hero h1,
+.hero p,
+.hero .lead,
+.hero .eyebrow {
+  max-width: 760px;
+  margin-left: 0;
+}
