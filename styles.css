@@ -1459,3 +1459,16 @@ max-width:420px;
 width:100%;
 height:auto;
 }
+.home-hero-motif {
+  position: absolute;
+  right: 6%;
+  top: 54%;
+  transform: translateY(-50%);
+}
+
+.home-hero-motif img {
+  width: 520px !important;
+  max-width: none !important;
+  opacity: 0.22 !important;
+  filter: contrast(1.18);
+}
