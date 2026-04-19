@@ -899,3 +899,17 @@ p {
   display: block;
   opacity: 0.16;
 }
+.home-hero-motif {
+  position: absolute;
+  top: 175px;
+  right: -4%;
+  width: 48%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home-hero-motif img {
+  width: 100%;
+  display: block;
+  opacity: 0.13;
+}
