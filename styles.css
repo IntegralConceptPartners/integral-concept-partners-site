@@ -898,3 +898,17 @@ p {
   display: block;
   opacity: 0.35;
 }
+.home-hero-motif {
+  position: absolute;
+  top: 155px;
+  right: 2%;
+  width: 48%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home-hero-motif img {
+  width: 100%;
+  display: block;
+  opacity: 0.16;
+}
