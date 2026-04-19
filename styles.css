@@ -1596,3 +1596,13 @@ opacity: 0.28;
   text-align: left;
   max-width: none;
 }
+.hero .container.narrow > p:first-of-type,
+.hero .container > p:first-of-type,
+.section .container.narrow > p:first-of-type,
+.section .container > p:first-of-type,
+.hero .lead,
+.lead {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+}
