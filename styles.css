@@ -1090,3 +1090,45 @@ background: linear-gradient(90deg, #203d72 0%, #1d3463 100%);
     height: 28px;
   }
 }
+/* ===== FINAL DARK RICH NAVY ICP ===== */
+
+.site-header,
+.site-footer {
+  background: #171d4a;
+}
+
+.site-header {
+  background: linear-gradient(90deg, #12163d 0%, #171d4a 45%, #1d2557 100%);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.site-footer {
+  background: linear-gradient(90deg, #12163d 0%, #171d4a 45%, #1d2557 100%);
+}
+
+/* nav */
+
+.site-header .nav-links a {
+  color: rgba(255,255,255,0.82);
+}
+
+.site-header .nav-links a:hover,
+.site-header .nav-links a.active {
+  color: #ffffff;
+}
+
+.site-header .nav-links a.active {
+  border-bottom: 2px solid #67e0d3;
+}
+
+/* footer */
+
+.site-footer,
+.site-footer p,
+.site-footer span {
+  color: rgba(255,255,255,0.78);
+}
+
+.site-footer a {
+  color: #ffffff;
+}
