@@ -1338,3 +1338,23 @@ background: linear-gradient(90deg, #203d72 0%, #1d3463 100%);
     height: 34px !important;
   }
 }
+.site-header .logo,
+.site-header .logo-header {
+  height: 52px !important;
+  width: auto !important;
+}
+
+.site-footer .logo,
+.site-footer .logo-footer {
+  height: 46px !important;
+  width: auto !important;
+}
+
+@media (max-width: 900px) {
+  .site-header .logo,
+  .site-header .logo-header,
+  .site-footer .logo,
+  .site-footer .logo-footer {
+    height: 34px !important;
+  }
+}
