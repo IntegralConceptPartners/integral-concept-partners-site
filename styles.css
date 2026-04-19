@@ -1358,3 +1358,7 @@ background: linear-gradient(90deg, #203d72 0%, #1d3463 100%);
     height: 34px !important;
   }
 }
+.site-footer .logo,
+.site-footer .logo-footer {
+  height: 36px !important;
+}
