@@ -899,7 +899,7 @@ p {
   display: block;
   opacity: 0.16;
 }
-.home-hero-motif {
+.home-hero-motif {1
   position: absolute;
   top: 175px;
   right: -4%;
@@ -912,4 +912,7 @@ p {
   width: 100%;
   display: block;
   opacity: 0.13;
+}
+.home-hero-motif img {
+  opacity: 0.16;
 }
