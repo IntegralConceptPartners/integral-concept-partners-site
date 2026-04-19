@@ -1132,3 +1132,37 @@ background: linear-gradient(90deg, #203d72 0%, #1d3463 100%);
 .site-footer a {
   color: #ffffff;
 }
+/* ===== FINAL SEAMLESS HEADER / FOOTER ===== */
+
+.site-header,
+.site-footer {
+  background: linear-gradient(90deg, #11163d 0%, #171d4a 45%, #1d2557 100%) !important;
+}
+
+/* remove any nested panel backgrounds */
+.site-header .container,
+.site-header .brand,
+.site-header .nav,
+.site-header .nav-links,
+.site-header .logo-wrap {
+  background: transparent !important;
+}
+
+/* subtle border */
+.site-header {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* nav text */
+.site-header .nav-links a {
+  color: rgba(255,255,255,0.82);
+}
+
+.site-header .nav-links a.active,
+.site-header .nav-links a:hover {
+  color: #ffffff;
+}
+
+.site-header .nav-links a.active {
+  border-bottom: 2px solid #67e0d3;
+}
