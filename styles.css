@@ -916,3 +916,59 @@ p {
 .home-hero-motif img {
   opacity: 0.16;
 }
+/* ===== GLOBAL DARK HEADER / FOOTER UPGRADE ===== */
+
+.site-header {
+  background: #14233b;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.site-header .nav-links a {
+  color: rgba(255,255,255,0.82);
+}
+
+.site-header .nav-links a:hover,
+.site-header .nav-links a.active {
+  color: #ffffff;
+}
+
+.site-header .nav-links a.active {
+  border-bottom: 2px solid #7ee0d6;
+}
+
+.site-header .logo {
+  height: 44px;
+  width: auto;
+}
+
+/* Footer */
+
+.site-footer {
+  background: #14233b;
+  color: rgba(255,255,255,0.72);
+}
+
+.site-footer a {
+  color: rgba(255,255,255,0.82);
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+}
+
+.site-footer .logo {
+  height: 36px;
+  width: auto;
+}
+
+/* Mobile */
+
+@media (max-width: 900px) {
+  .site-header .logo {
+    height: 36px;
+  }
+
+  .site-footer .logo {
+    height: 30px;
+  }
+}
