@@ -1434,3 +1434,10 @@ background: linear-gradient(90deg, #203d72 0%, #1d3463 100%);
     opacity: 0.14;
   }
 }
+.home-hero-motif img{
+  opacity: 0.32 !important;
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  filter: contrast(1.05);
+}
