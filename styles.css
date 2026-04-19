@@ -1536,3 +1536,16 @@ opacity: 0.28;
   max-width: 760px;
   margin-left: 0;
 }
+.hero .container,
+.hero .container.narrow {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.hero .eyebrow,
+.hero h1,
+.hero p,
+.hero .lead {
+  margin-left: 0;
+  text-align: left;
+}
