@@ -1485,3 +1485,16 @@ opacity: 0.28;
   opacity: 0.28 !important;
   filter: contrast(1.18);
 }
+.home-hero-motif {
+  position: absolute;
+  right: 4%;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.home-hero-motif img {
+  width: 560px !important;
+  max-width: none !important;
+  opacity: 0.30 !important;
+  filter: contrast(1.25);
+}
