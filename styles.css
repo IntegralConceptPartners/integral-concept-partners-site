@@ -1606,3 +1606,15 @@ opacity: 0.28;
   margin-right: 0 !important;
   text-align: left !important;
 }
+/* TEXT BLOCK ALIGNMENT FIX */
+
+.hero-copy,
+.hero-sub,
+.section-head p,
+.page-intro p,
+.intro p {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+  max-width: 760px;
+}
