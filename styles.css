@@ -973,3 +973,53 @@ p {
   }
 }
 background: linear-gradient(90deg, #203d72 0%, #1d3463 100%);
+/* ===== ICP LOGO BLUE HEADER / FOOTER ===== */
+
+.site-header,
+.site-footer {
+  background: #244a86;
+}
+
+/* premium subtle depth */
+.site-header {
+  background: linear-gradient(90deg, #28508f 0%, #244a86 55%, #203f73 100%);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.site-footer {
+  background: linear-gradient(90deg, #203f73 0%, #244a86 45%, #28508f 100%);
+}
+
+/* navigation text */
+
+.site-header .nav-links a {
+  color: rgba(255,255,255,0.84);
+}
+
+.site-header .nav-links a:hover,
+.site-header .nav-links a.active {
+  color: #ffffff;
+}
+
+.site-header .nav-links a.active {
+  border-bottom: 2px solid #72e0d4;
+}
+
+/* footer text */
+
+.site-footer,
+.site-footer p,
+.site-footer span {
+  color: rgba(255,255,255,0.78);
+}
+
+.site-footer a {
+  color: #ffffff;
+}
+
+/* keep logos crisp */
+
+.site-header .logo,
+.site-footer .logo {
+  filter: none;
+}
