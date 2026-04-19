@@ -1584,3 +1584,15 @@ opacity: 0.28;
 .section li {
   text-align: left;
 }
+/* FIRST PARAGRAPH ALIGNMENT FIX */
+
+.hero .lead,
+.hero p:first-of-type,
+.section p:first-of-type,
+.container.narrow > p:first-of-type,
+.container > p:first-of-type {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  max-width: none;
+}
