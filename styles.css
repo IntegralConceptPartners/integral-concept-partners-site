@@ -1675,3 +1675,6 @@ main .container.narrow {
   opacity: 0.30 !important;
   filter: contrast(1.12);
 }
+.btn-secondary {
+  border: 1.5px solid #d6d8dd;
+}
