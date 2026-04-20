@@ -1658,3 +1658,6 @@ main .container.narrow {
     width: calc(100% - 32px);
   }
 }
+.home-hero-motif img {
+  opacity: 0.34 !important;
+}
