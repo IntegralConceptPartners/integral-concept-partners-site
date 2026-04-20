@@ -1672,6 +1672,6 @@ main .container.narrow {
 .home-hero-motif img {
   width: 460px !important;
   max-width: none !important;
-  opacity: 0.24 !important;
+  opacity: 0.30 !important;
   filter: contrast(1.12);
 }
