@@ -1712,3 +1712,24 @@ main .container.narrow {
   border-color: #1d2557 !important;
   box-shadow: 0 12px 28px rgba(23, 29, 74, 0.18);
 }
+/* TOUCH + DESKTOP INTERACTION STATES */
+
+.btn,
+.grid-2 > div,
+.grid-3 > div,
+.grid-4 > div {
+  transition: all 0.22s ease;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus-visible,
+.grid-2 > div:hover,
+.grid-2 > div:active,
+.grid-3 > div:hover,
+.grid-3 > div:active,
+.grid-4 > div:hover,
+.grid-4 > div:active {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.10);
+}
