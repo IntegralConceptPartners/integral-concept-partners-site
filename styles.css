@@ -1678,3 +1678,21 @@ main .container.narrow {
 .btn-secondary {
   border: 1.5px solid #d6d8dd;
 }
+/* PREMIUM HOVER RESTORE */
+
+.btn,
+.card,
+.grid-3 > div,
+.grid-4 > div,
+.grid-2 > div {
+  transition: all 0.22s ease;
+}
+
+.btn:hover,
+.card:hover,
+.grid-3 > div:hover,
+.grid-4 > div:hover,
+.grid-2 > div:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.10);
+}
