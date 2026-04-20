@@ -1768,3 +1768,10 @@ main .container.narrow {
     box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
   }
 }
+.eyebrow {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: #4b5563;
+  text-transform: uppercase;
+}
