@@ -1699,3 +1699,16 @@ main .container.narrow {
 .home-hero-motif {
   display: none !important;
 }
+/* PRIMARY BUTTON BRAND REFRESH */
+
+.btn-primary {
+  background: #171d4a !important;
+  color: #ffffff !important;
+  border: 1px solid #171d4a !important;
+}
+
+.btn-primary:hover {
+  background: #1d2557 !important;
+  border-color: #1d2557 !important;
+  box-shadow: 0 12px 28px rgba(23, 29, 74, 0.18);
+}
