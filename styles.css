@@ -1874,3 +1874,13 @@ main .container.narrow {
     height: 36px;
   }
 }
+.brand-logo {
+  height: 46px;
+  width: auto;
+  display: block;
+}
+@media (max-width: 760px) {
+  .brand-logo {
+    height: 38px;
+  }
+}
