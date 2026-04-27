@@ -1884,3 +1884,39 @@ main .container.narrow {
     height: 38px;
   }
 }
+/* ===== FINAL LOGO FIX ===== */
+
+.brand-logo,
+.logo {
+  height: 46px !important;
+  width: auto !important;
+  max-width: 260px !important;
+  display: block;
+  object-fit: contain;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.site-header {
+  background: rgba(255,255,255,0.96) !important;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.nav {
+  min-height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 760px) {
+  .brand-logo,
+  .logo {
+    height: 38px !important;
+    max-width: 220px !important;
+  }
+}
